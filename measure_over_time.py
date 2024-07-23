@@ -228,7 +228,7 @@ def collect_run_data(data, well, stiff, trial): #collect data for specific run f
     if stiff:
         return run_array
     for i in range(0, len(data)):
-        if data[i][0] == well and data[i][3] == trial:
+        if data[i][0] == well and int(data[i][3]) == trial:
             values = [data[i][1], data[i][2]]
             well_data.append(values)
     #print(well_data)
