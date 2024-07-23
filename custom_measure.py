@@ -631,7 +631,7 @@ if __name__ == "__main__":
     y_offset = -100
 
     bad_name = True
-    files = os.listdir("~/ASMI_KABlab")
+    files = os.listdir("/home/robot/ASMI_KABlab")
     while bad_name:
         filename = input(
             "Please enter the name of the the file you would like to save the data to. The format should have"
