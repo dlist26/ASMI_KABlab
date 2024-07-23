@@ -9,7 +9,7 @@ import os
 print("This is the analysis program for the measure_over_time script. This will not work for data collected with the "
       "measure and custom_measure programs")
 bad_name = True
-files = os.listdir("~/ASMI_KABlab")
+files = os.listdir("/home/robot/ASMI_KABlab")
 while bad_name:
     filename = input(
         "Please enter the name of the the file you would like to analyze the data from. The name is case"
